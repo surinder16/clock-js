@@ -1,0 +1,45 @@
+#clock{
+    background: url('file:///C:/Users/dell/Desktop/all-project/clock/PikPng.com_clock-hands-png_790352.png')no-repeat;
+
+    width: 40vw;
+    height: 45vw;
+    background-size:100%;
+    margin: auto;
+    position: relative;
+}
+
+#hour{
+    position: absolute;
+    background-color: black;
+    width: 3%;
+    height: 27%;
+    border-radius: 10px;
+    top: 22%;
+    left: 48.30%;
+    transform-origin: bottom;
+    
+
+}
+#minute{
+    position: absolute;
+    background-color: black;
+    width: 2%;
+    height: 32%;
+    border-radius: 10px;
+    top: 18.2%;
+    left: 50.2%;
+    transform-origin: bottom;
+   
+}
+#second{
+    position: absolute;
+    background-color: black;
+    width: 1%;
+    height: 36%;
+    border-radius: 10px;
+    top: 14%;
+    left: 49.1%;
+    transform-origin: bottom;
+   
+}
+  
